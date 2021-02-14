@@ -2,23 +2,24 @@
 
 // using namespace std;
 
-// int n;
-// int total_dist;
-// int total_price;
-// int min_price;
-// vector<int> dist;
-// vector<int> price;
+// // int로 선언해서 틀렸네;
+// long long n;
+// long long total_dist;
+// long long total_price;
+// long long min_price;
+// vector<long long> dist;
+// vector<long long> price;
 
 // int main(void) {
 //   cin >> n;
 //   for (int i = 0; i < n-1; i++) {
-//     int x;
+//     long long x;
 //     cin >> x;
 //     dist.push_back(x);
 //     total_dist += dist[i];
 //   }
 //   for (int j = 0; j < n; j++) {
-//     int y;
+//     long long y;
 //     cin >> y;
 //     price.push_back(y);
 //   }
@@ -34,6 +35,6 @@
 //     total_price += min_price * dist[i];
 //     total_dist -= dist[i];
 //   }
-//   cout << total_price;
+//   cout << total_price << endl;
 //   return 0;
 // }
