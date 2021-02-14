@@ -36,7 +36,6 @@
 //     }
 //   }
 //   cout << x << ' ' << y << endl;
-/*   ////// method 1 => fail
 //   while(true){
 //     if(n >= 5){
 //       cnt = n / cointypes[0];
@@ -68,6 +67,5 @@
 //       break;
 //     }
 //   }
-*/
 //   cout << cnt;
 // }
